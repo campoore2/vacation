@@ -1,7 +1,30 @@
 
 
-
-
 footer {
   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* gallery */
+#gallery {
+  max-width: 1560px;
+  margin: 20px auto;
 }

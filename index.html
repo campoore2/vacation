@@ -15,34 +15,49 @@
       <div role="navigation">
         <ul class="nav nav-tabs">
           <li role="presentation" class="active">
-            <a href="#">Home</a>
+            <a href="index.html"><b class="glyphicon glyphicon-home"></b>Home</a>
           </li>
           <li role="presentation">
-            <a href="#">Gallery</a>
+            <a href="gallery.html"><b class="glyphicon glyphicon-picture"></b>Gallery</a>
           </li>
           <li role="presentation">
-            <a href="#">FAQ</a>
+            <a href="faq.html"><b class="glyphicon glyphicon-question-sign"></b>FAQ</a>
           </li>
         </ul>
       </div>
     </header>
 
-    <div class="jumbotron">
-      <div class="container faroe">
-        <h1><a href="index.html">Faroe Islands</a></h1>
-        <h2>We'd really like to go on vacation to see the Faroe Islands!</h2>
-        <img class="img-responsive" src="img/faroe-islands.jpg" alt="">
+    <div id="myCarousel" class="carousel slide jumbotron">
+      <div class="container">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="container faroe item active">
+            <h1><a href="index.html">Faroe Islands</a></h1>
+            <h2>We'd really like to go on vacation to see the Faroe Islands!</h2>
+            <img class="img-responsive" src="img/faroe-islands.jpg" alt="">
+          </div>
+          <div class="container natural item">
+            <h1><a href="nature.html">Natural Beauty</a></h1>
+            <h2>The Faroe Islands have amazing geological sights</h2>
+            <img src="img/natural-beauty.jpg" alt="">
+          </div>
+          <div class="container puffins item">
+            <h1><a href="puffins.html">Puffins.</a></h1>
+            <h2>Faroese puffins are very common and part of the local cuisine.</h2>
+            <img src="img/puffin.jpg" alt="">
+          </div>
+        </div>
       </div>
-      <!-- <div class="container natural">
-        <h1><a href="nature.html">Natural Beauty</a></h1>
-        <h2>The Faroe Islands have amazing geological sights</h2>
-        <img src="img/natural-beauty.jpg" alt="">
-      </div>
-      <div class="container puffins">
-        <h1><a href="puffins.html">Puffins.</a></h1>
-        <h2>Faroese puffins are very common and part of the local cuisine.</h2>
-        <img src="img/puffin.jpg" alt=""> -->
-      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
     </div>
 
     <div class="row">
@@ -79,7 +94,7 @@
 
 
 
-
+    <script src="http://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </body>
 </html>
