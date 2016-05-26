@@ -5,41 +5,48 @@
     <title>Vacation</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
   </head>
   <body>
 
     <header>
       <h1>Vacation to Faroe Islands</h1>
 
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Gallery</li>
-          <li>FAQ</li>
+      <div role="navigation">
+        <ul class="nav nav-tabs">
+          <li role="presentation" class="active">
+            <a href="#">Home</a>
+          </li>
+          <li role="presentation">
+            <a href="#">Gallery</a>
+          </li>
+          <li role="presentation">
+            <a href="#">FAQ</a>
+          </li>
         </ul>
-      </nav>
+      </div>
     </header>
 
-    <div>
-      <div>
+    <div class="jumbotron">
+      <div class="container faroe">
         <h1><a href="index.html">Faroe Islands</a></h1>
         <h2>We'd really like to go on vacation to see the Faroe Islands!</h2>
-        <img src="img/faroe-islands.jpg" alt="">
+        <img class="img-responsive" src="img/faroe-islands.jpg" alt="">
       </div>
-      <div>
+      <!-- <div class="container natural">
         <h1><a href="nature.html">Natural Beauty</a></h1>
         <h2>The Faroe Islands have amazing geological sights</h2>
         <img src="img/natural-beauty.jpg" alt="">
       </div>
-      <div>
+      <div class="container puffins">
         <h1><a href="puffins.html">Puffins.</a></h1>
         <h2>Faroese puffins are very common and part of the local cuisine.</h2>
-        <img src="img/puffin.jpg" alt="">
+        <img src="img/puffin.jpg" alt=""> -->
       </div>
     </div>
 
-    <div>
-      <div class="">
+    <div class="row">
+      <div class="col-md-4">
         <h3>Good Reasons to Go</h3>
         <ul>
           <li>Eat Faroese puffin (delicious)</li>
@@ -53,11 +60,11 @@
           <li>When Denmark is your sovereign state, you <em>know</em> it's gonna be a good time</li>
         </ul>
       </div>
-      <div class="">
+      <div class="col-md-5">
         <h4>I don't know, but I really want to go.</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
-      <div class="">
+      <div class="col-md-3">
         <blockquote cite="https://en.wikipedia.org/wiki/Faroe_Islands">
           Only a few species of wild land mammals are found in the Faroe Islands today, all introduced by humans. Three species are thriving on the islands today: mountain hare (Lepus timidus), brown rat (Rattus norvegicus) and the house mouse (Mus musculus). Apart from these, there once was a local domestic sheep breed called Faroes (depicted on the coat of arms), a variety of feral sheep survived on Little Dímun until the mid-19th century.
         </blockquote>
