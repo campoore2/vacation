@@ -7,6 +7,10 @@ header h1 {
   text-shadow: 2px 2px 3px #ffad33;
 }
 
+b {
+  margin-right: 5px;
+}
+
 footer {
   text-align: center;
 }
