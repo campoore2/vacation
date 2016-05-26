@@ -1,23 +1,46 @@
+body {
+  margin-left: 10px;
+}
 
+header h1 {
+  font-variant: small-caps;
+  text-shadow: 2px 2px 3px #ffad33;
+}
 
 footer {
   text-align: center;
 }
 
+.carousel div h2 {
+  max-width: 560px;
+}
 
+#faqyou {
+  max-width: 400px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  margin-right: 20px;
+  padding: 4px 6px;
+}
 
+.item h1 {
+  text-shadow: 3px 3px 6px #222;
+}
 
+.item img {
+  box-shadow: 2px 2px 8px #222;
+}
 
-
-
-
-
-
-
-
-
-
-
+/* carousel */
+.carousel-indicators {
+	bottom: 0;
+}
+.carousel-indicators .active {
+	background-color: #222;
+}
+.carousel-indicators li {
+	border-color: #222;
+}
 
 
 
